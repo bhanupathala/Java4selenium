@@ -1,0 +1,41 @@
+import org.openqa.selenium.chrome.ChromeDriver;
+
+public class Caluclator {
+	
+	
+	public void add() {
+		
+		System.out.println("Adding some numbers: ");
+	}
+	
+public void sub() {
+		
+		System.out.println("subtract some numbers: ");
+	}
+	
+public void multi() {
+	
+	System.out.println("multiply some numbers: ");
+}
+
+public void div() {
+	
+	System.out.println("divison some numbers: ");
+}
+
+
+	public static void main(String[] args) {
+		
+		// object of the class
+		Caluclator calc = new Caluclator();	
+		calc.add();
+		calc.sub();
+		calc.div();
+		calc.multi();
+		
+		ChromeDriver driver = new ChromeDriver();
+				driver.get("https://www.way2automation.com");
+
+	}
+
+}

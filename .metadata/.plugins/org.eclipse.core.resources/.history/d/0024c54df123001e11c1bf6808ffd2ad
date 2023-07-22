@@ -1,0 +1,37 @@
+
+public class Caluclator {
+	
+	
+	public void add() {
+		
+		System.out.println("Adding some numbers: ");
+	}
+	
+public void sub() {
+		
+		System.out.println("subtract some numbers: ");
+	}
+	
+public void multi() {
+	
+	System.out.println("multiply some numbers: ");
+}
+
+public void div() {
+	
+	System.out.println("divison some numbers: ");
+}
+
+
+	public static void main(String[] args) {
+		
+		// object of the class
+		 new Caluclator();	
+		calc.add();
+		calc.sub();
+		calc.div();
+		calc.multi();
+
+	}
+
+}
